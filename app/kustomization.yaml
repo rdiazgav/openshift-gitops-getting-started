@@ -1,4 +1,5 @@
 resources:
+- configmap.yaml
 - mysql.yaml
 - deployment.yaml
 - service.yaml
