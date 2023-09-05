@@ -20,6 +20,10 @@ spec:
               value: root
             - name: MYSQL_DATABASE
               value: petclinic
+            - name: MYSQL_USER
+              value: petclinic
+            - name: MYSQL_PASSWORD
+              value: petclinic
           ports:
             - containerPort: 3306
           volumeMounts:
