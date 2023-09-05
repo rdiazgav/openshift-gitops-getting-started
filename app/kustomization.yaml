@@ -1,5 +1,5 @@
 resources:
+- mysql.yaml
 - deployment.yaml
 - service.yaml
 - route.yaml
-- mysql.yaml
