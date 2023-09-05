@@ -45,8 +45,6 @@ spec:
     - protocol: TCP
       port: 3306
       targetPort: 3306
-  profiles:
-    - mysql
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
